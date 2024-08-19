@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Labor Social CS</title>
+    <script src="Quiz.js"></script>
+    <link rel="stylesheet" href="Quiz.css">
+
+    <style>
+      @font-face {
+        font-family: "Varsity";
+        src: url("Fonts/VarsityTeam-Bold.otf");
+      }
+    </style>
+  </head>
+  <body onload="main()">
+
+    <div id="Top-info">
+      <h3 id="score">SCORE: 00</h3>
+    </div>
+
+    <div id="Question">
+      <div id="Text">
+        <h1 id="questionText">
+          THIS IS A QUESTION THIS IS A QUESTION THIS IS A QUESTION
+        </h1>
+      </div>
+
+      <div id="Bar">
+        <div style="margin-left: 0; margin-right: auto" id="Progress">
+          <br>
+        </div>
+      </div>
+
+      <div id="Buttons">
+        <button class="answerBtn" type="button" style="margin-left: 0; margin-right: auto" onclick="processAnswer(true)">VERDADERO</button>
+        <button class="answerBtn" type="button" style="margin-left: auto; margin-right: 0" onclick="processAnswer(false)">FALSO</button>
+      </div>
+    </div>
+
+    <div id="NextPopup">
+      <h1 id="congratsText">¡Ponte a prueba! Quiz CS</h1>
+      <button id="nextBtn" type="button" onclick="displayNext()">INICIAR</button>
+    </div>
+
+  </body>
+</html>
