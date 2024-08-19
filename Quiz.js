@@ -86,6 +86,9 @@ function displayNext(){
 }
 
 function processAnswer(answer){
+    if(!waiting){
+        return;
+    }
     if(selectedQuestions[questionIndex].isTrue == answer){
         correct = true;
         score ++;
