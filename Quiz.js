@@ -12,7 +12,7 @@ var questions = [new Question("Debes cumplir 480 créditos para completar la Lab
     new Question("Un programa de 240 créditos toma alrededor de 60 y 80 horas.", true, 4000),
     new Question("Hay 2 ciclos de Labor Social cada año.", false, 4000),
     new Question("Puede realizarse más de un programa por ciclo.", false, 4000),
-    new Question("Debe asistirse a una sola sesión del Taller del Voluntario para realizar la Labor Social.", true, 4000),
+    new Question("Debe asistirse a una sola sesión obligatoria del Taller del Voluntario para realizar la Labor Social.", true, 4000),
     new Question("El correo de Compromiso Social es unete@up.edu.mx.", true, 4000),
     new Question("Las oficinas de Compromiso Social se encuentran dentro del Poliforum Panamericano.", true, 4000),
     new Question("Se puede hacer un programa social fuera de la UP o que no está en el Micrositio de Labor Social y validarlo como Labor Social.", false, 4000)];
